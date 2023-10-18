@@ -2,6 +2,31 @@ table, th, td{
     border: 1px solid;
     border-collapse: collapse;
 }
-.LL{
+
+th:nth-child(1){
     text-align: left;
 }
+
+th:nth-child(4){
+    text-align: right;
+}
+
+tr:nth-child(odd){
+    background-color: blue;
+}
+
+tr:nth-child(even){
+    background-color:yellow;
+}
+
+tr:nth-child(1){
+    background-color: aquamarine;
+
+}
+
+
+tr > th:nth-child(1){
+    width: 150px;
+}
+
+
