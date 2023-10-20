@@ -16,17 +16,35 @@ tr:nth-child(odd){
 }
 
 tr:nth-child(even){
-    background-color:yellow;
+    background-color:rgb(243, 243, 0);
 }
 
 tr:nth-child(1){
     background-color: aquamarine;
+    font-weight: 800;
+}
+
+th{
+    width: 140px;
+    padding: 4px;
+}
+
+caption{
+    caption-side: bottom;
+    padding: 10px;
+    font-size: 23px;
+}
+
+th{
+    font-family: arial;
+    font-weight: lighter;
 
 }
 
-
-tr > th:nth-child(1){
-    width: 150px;
+table{
+    margin: auto;
 }
+
+
 
 
